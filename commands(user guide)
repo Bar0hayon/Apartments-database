@@ -1,0 +1,22 @@
+Commands:
+Add-an-apt "address" <price> <number of rooms> <date: dd mm yy>
+Example:  add-an-apt "Hasavyonim 23 Ramat Ono" 2000000 4 01 01 20
+
+get-an-apt –MaximumPrice 1500000
+get-an-apt –MinimumNumRooms 3
+get-an-apt –MaximumNumRooms 5
+get-an-apt –Date 01052017   //prints all of the apartments that will evacuate until 1.5.17 get-an-apt –s   //prints all of the apartments sorted from the lowest price to the highestget-an-apt –sr  //prints all of the apartments sorted from the highest price to the lowestall of ///////get-an-apt commands can be used at the same time for example:
+get-an-apt    –MinimumNumRooms 3 –MaximumNumRooms 5 –MaximumPrice 1750000 –s
+get-an-apt –Enter 3 //prints all of the apartments that entered into the database in tha past 3 days.
+
+buy-an-apt 3 //gets apt number 3 out of the database
+
+delete-an-apt –Enter 2 //deletes all of the apartments that entered into the database in the past 2 days.
+
+Short_history //prints the 7 last commends that were entered
+
+history //prints all of the commends that were entered
+
+ !! //activates the last commend that was emtered
+!5 //activates commend number 5
+!3^str1^str2 //activates command number 3 but changes str1 from the original command into str2.
