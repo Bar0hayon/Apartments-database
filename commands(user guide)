@@ -17,6 +17,6 @@ Short_history //prints the 7 last commends that were entered
 
 history //prints all of the commends that were entered
 
- !! //activates the last commend that was emtered
+ !! //activates the last commend that was entered
 !5 //activates commend number 5
 !3^str1^str2 //activates command number 3 but changes str1 from the original command into str2.
